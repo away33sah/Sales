@@ -578,13 +578,13 @@ class instagram:
                 nip=random.choice(prox)
                 proxs= {'http': 'socks5://'+nip}
                 ua = random.choice(uasm)
-                aa='Mozilla/5.0 (Linux; Android 10'
+                aa='Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.6823.02 Mobile Safari/537.36'
                 b=random.choice(['4','5','6','7','8','9','10','11','12'])
                 c= '8094X_EEA'
                 d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
                 e=random.randrange(1, 999)
                 f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-                g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+                g='Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.6823.02 Mobile Safari/537.36'
                 h=random.randrange(73,200)
                 i='0'
                 j=random.randrange(4200,4900)
@@ -600,7 +600,7 @@ class instagram:
 					'accept': '*/*',
 					'x-requested-with': 'XMLHttpRequest',
 					'x-asbd-id': '198387',
-					'user-agent': 'Mozilla/5.0 (Linux; Android 11; RMX2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36',
+					'user-agent': 'Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.6823.02 Mobile Safari/537.36',
 					'x-csrftoken': token.cookies['csrftoken'],
 					'x-ig-app-id': '1217981644879628',
 					'origin': 'https://z-p42.www.instagram.com',
@@ -640,7 +640,7 @@ class instagram:
                     print('\n')
                     oi=nel(io,style='bright_yellow')
                     cetak(nel(oi, title='CHECKPOINT'))
-                    os.popen("play-audio data/cp.mp3")
+                    os.popen("")
                     open(f"result/checkpoint-{day}.txt","a").write(f'{user}|{pw}|{pengikut}|{mengikut}\n')
                     checkpoint.append(user)
                     break
