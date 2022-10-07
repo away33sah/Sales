@@ -117,7 +117,7 @@ def waktu():
 
 #---------------------[ USER-AGENT ]--------------------#
 
-USN="Mozilla/5.0 (Linux; Android 10; POT-LX1T Build/HUAWEIPOT-L21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.71 Mobile Safari/537.36 Instagram 243.0.0.16.111 Android (29/10; 480dpi; 1080x2259; HUAWEI; POT-LX1T; HWPOT-H; kirin710; it_IT; 382290498)"
+USN="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)"
 ugen=open('ua.txt','r').read().splitlines()
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
 ugen2=[]
@@ -584,7 +584,7 @@ class instagram:
                 d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
                 e=random.randrange(1, 999)
                 f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-                g='Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.6823.02 Mobile Safari/537.36'
+                g='Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)'
                 h=random.randrange(73,200)
                 i='0'
                 j=random.randrange(4200,4900)
@@ -600,14 +600,14 @@ class instagram:
 					'accept': '*/*',
 					'x-requested-with': 'XMLHttpRequest',
 					'x-asbd-id': '198387',
-					'user-agent': 'Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.6823.02 Mobile Safari/537.36',
+					'user-agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)',
 					'x-csrftoken': token.cookies['csrftoken'],
 					'x-ig-app-id': '1217981644879628',
-					'origin': 'https://z-p42.www.instagram.com',
+					'origin': 'https://.www.instagram.com',
 					'sec-fetch-site': 'same-origin',
 					'sec-fetch-mode': 'cors',
 					'sec-fetch-dest': 'empty',
-					'referer': 'https://z-p42.www.instagram.com/?login&hl=en-gb',
+					'referer': 'https://.www.instagram.com/?login&hl=en-gb',
 					'accept-encoding': 'gzip, deflate',
 					'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
