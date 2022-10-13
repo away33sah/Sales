@@ -603,11 +603,11 @@ class instagram:
 					'user-agent': uaku,
 					'x-csrftoken': token.cookies['csrftoken'],
 					'x-ig-app-id': '1217981644879628',
-					'origin': 'https://z-p42.www.instagram.com',
+					'origin': 'https://www.instagram.com',
 					'sec-fetch-site': 'same-origin',
 					'sec-fetch-mode': 'cors',
 					'sec-fetch-dest': 'empty',
-					'referer': 'https://z-p42.www.instagram.com/accounts/login/?force_classic_login&hl=en',
+					'referer': 'https://www.instagram.com/accounts/login/?force_classic_login&hl=en',
 					'accept-encoding': 'gzip, deflate',
 					'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
