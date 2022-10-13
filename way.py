@@ -591,9 +591,9 @@ class instagram:
                 k=random.randrange(40,150)
                 l='Mozilla/5.0 (Linux; Android 10; VOG-L29 Build/HUAWEIVOG-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.88 Mobile Safari/537.36HiSearch/22.0.6.311'
                 uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-                token=s.get('https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1')
+                token=s.get('z-p42.https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1')
                 headers = {
-                    'Host': 'www.instagram.com',
+                    'Host': 'z-p42.www.instagram.com',
                     'x-ig-www-claim': '0',
 					'x-instagram-ajax': 'c2d8f4380025',
 					'content-type': 'application/x-www-form-urlencoded',
@@ -603,11 +603,11 @@ class instagram:
 					'user-agent': 'Mozilla/5.0 (Linux; Android 10; VOG-L29 Build/HUAWEIVOG-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.88 Mobile Safari/537.36HiSearch/22.0.6.311',
 					'x-csrftoken': token.cookies['csrftoken'],
 					'x-ig-app-id': '1217981644879628',
-					'origin': 'https://www.instagram.com',
+					'origin': 'https://z-p42.www.instagram.com',
 					'sec-fetch-site': 'same-origin',
 					'sec-fetch-mode': 'cors',
 					'sec-fetch-dest': 'empty',
-					'referer': 'https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1',
+					'referer': 'https://z-p42.www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1',
 					'accept-encoding': 'gzip, deflate',
 					'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
