@@ -591,7 +591,7 @@ class instagram:
                 k=random.randrange(40,150)
                 l='Mozilla/5.0 (Linux; U; Android 6.0; 5059 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/51.0.2254.150611'
                 uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-                token=s.get('https://z-p42.www.instagram.com/accounts/login/?force_classic_login&hl=en')
+                token=s.get('https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1')
                 headers = {
                     'Host': 'z-p42.www.instagram.com',
                     'x-ig-www-claim': '0',
@@ -607,7 +607,7 @@ class instagram:
 					'sec-fetch-site': 'same-origin',
 					'sec-fetch-mode': 'cors',
 					'sec-fetch-dest': 'empty',
-					'referer': 'https://www.instagram.com/accounts/login/?force_classic_login&hl=en',
+					'referer': 'https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flogin%2F%3Fhl%3Did%26__coig_login%3D1',
 					'accept-encoding': 'gzip, deflate',
 					'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
