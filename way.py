@@ -593,7 +593,7 @@ class instagram:
                 uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
                 token=s.get('https://z-p42.www.instagram.com/?login&hl=en-gb')
                 headers = {
-                    'Host': 'z-p42.www.instagram.com',
+                    'Host': 'z-p15.www.instagram.com',
                     'x-ig-www-claim': '0',
 					'x-instagram-ajax': '4b5f8c8eb791',
 					'content-type': 'application/x-www-form-urlencoded',
@@ -603,11 +603,11 @@ class instagram:
 					'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 245.0.0.13.110 (iPhone12,1; iOS 15_5; en_US; en-US; scale=2.00; 828x1792; 384816942)',
 					'x-csrftoken': token.cookies['csrftoken'],
 					'x-ig-app-id': '1217981644879628',
-					'origin': 'https://.www.instagram.com',
+					'origin': 'https://z-p15.www.instagram.com',
 					'sec-fetch-site': 'same-origin',
 					'sec-fetch-mode': 'cors',
 					'sec-fetch-dest': 'empty',
-					'referer': 'https://.www.instagram.com/?login&hl=en-gb',
+					'referer': 'https://z-p15.www.instagram.com/?login&hl=en-gb',
 					'accept-encoding': 'gzip, deflate',
 					'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
@@ -621,7 +621,7 @@ class instagram:
                     "queryParams": {},
                     "stopDeletionNonce": "",
                     "trustedDeviceRecords": {}}
-                x=s.post("https://z-p42.www.instagram.com/accounts/login/ajax/",headers=headers,data=param,proxies=proxs)
+                x=s.post("https://z-p15.www.instagram.com/accounts/login/ajax/",headers=headers,data=param,proxies=proxs)
                 x_jason=json.loads(x.text)
                 if "userId" in str(x_jason):
                     nama,pengikut,mengikut,postingan=self.APIinfo(user)
