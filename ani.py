@@ -1,30 +1,3 @@
-Skip to content
-Product
-Solutions
-Open Source
-Pricing
-Search
-Sign in
-Sign up
-BrayennnXD
-/
-BrayennnIG
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-BrayennnIG/BrayennnIG.py /
-@BrayennnXD
-BrayennnXD Update BrayennnIG.py
-Latest commit ec1b6a3 2 days ago
- History
- 1 contributor
-1620 lines (1511 sloc)  78 KB
-
 #BrayennnXD ComeBack
 #BrayennnXD Nih Bosss
 #Jangan Lupa Besyukur :)
@@ -1645,18 +1618,3 @@ def makedirectory():
 if __name__ == '__main__':
 	os.system("git pull")
 	makedirectory()
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-BrayennnIG/BrayennnIG.py at main · BrayennnXD/BrayennnIG · GitHub
